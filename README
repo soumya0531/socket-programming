@@ -1,0 +1,9 @@
+Implement a TCP client and server which will communicate over the network and exchange data.
+The server will start in passive mode listening for a transmission from the client. The client will then
+start and contact the server (on a given IP address and port number). The client will pass the server a
+string (eg: “network”) up to 80 characters in length.
+On receiving a string from a client, the server should: 1) reverse all the characters, and 2) reverse the
+capitalization of the strings (“network” would now become “KROWTEN”).
+The server should then send the string back to the client. The client will display the received string
+and exit.
+
